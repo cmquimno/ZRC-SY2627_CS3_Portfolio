@@ -2,7 +2,7 @@ class BankAccount:
     def __init__(self, account_number: int, balance: float):
         self.__account_number = account_number
         self.__balance = 0.0
-        self.set_balance(balance)
+        self.set_balance(balance)         
 
     def set_account_number(self, account_number: int):
         self.__account_number = account_number
@@ -31,4 +31,4 @@ print("\nUpdate balance to -100")
 a1.set_balance(-100)
 
 print(f"Account Number: {a1.account_number}")
-print(f"Balance: {a1.balance:.2f}")
+print(f"Balance: {a1.balance:.2f}")                      
