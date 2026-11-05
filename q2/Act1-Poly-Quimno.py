@@ -59,3 +59,4 @@ if __name__ == "__main__":
         p.display_patient_type()
         print(f"Original Bill: ₱{p.get_bill_amount():,.2f}")
         print(f"Final Bill: ₱{p.calculate_bill():,.2f}\n")
+        
